@@ -1,0 +1,1359 @@
+{
+  "SR_CALL_COMPLETED": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Hey! We hope we were able to assist you. If you have any further questions, feel free to connect with us again. Have a great day! \n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      }
+    ]
+  },
+  "VB_CALL_COMPLETED": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Hey! We hope we were able answer all your queries. If you have any further questions, feel free to connect with us again. Have a great day! \n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      }
+    ]
+  },
+  "VB_MEETING_LINK": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "Y",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "$cust_email$",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "You didn't forget, right? We have a meeting in 15 mins!",
+    "EMAIL_BODY": "<center><span style=\"color:transparent;\">Use AU Bank Debit Card to get rewarded with every Swipe.</span></center>\n<!DOCTYPE html>\n<html>\n<head>\n\t<meta name=\"x-apple-disable-message-reformatting\">\n\t<meta name=\"color-scheme\" content=\"light dark\">\n\t<meta name=\"supported-color-schemes\" content=\"light dark\">\n\t<title>au video banking onboarding mailer</title>\n\t<style type=\"text/css\">\n\t\t:root {\n\t\t\tcolor-scheme: light dark;\n\t\t\tsupported-color-schemes: light dark;\n\t\t}\n\t\t@media (prefers-color-scheme: dark ) {\n\t\t\t.body {\n\t\t\t\tbackground-color: #fefefe !important;\n\t\t\t}\n\t\t}\n\t</style>\n</head>\n<body>\n\t<!-- Place this code here in the <body> of the email -->\n<div itemscope itemtype=\"http://schema.org/Organization\">\n\t<meta itemprop=\"name\" content=\"AU Bank\" />\n\t<meta itemprop=\"logo\" content=\"https://www.aubank.in/assets/images/logo.png\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/PromotionCard\">\n\t<meta itemprop=\"image\" content=\"https://i.ibb.co/d0pRx0c/banner-new.jpg\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n\t<meta itemprop=\"subjectLine\" content=\"Shopping Dhamaka: 10% off Amazon with AU Bank Debit Card ! \uD83D\uDC55 ⌚ \uD83D\uDCF1 \uD83D\uDED2\" />\n</div>\n\n\t<table align=\"center\" width=\"700\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px solid #cccccc;\">\n\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n                            \n\t\t\t\t\t\t\t\t\t<img src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/au-vid-bak-on-bor-mr-24-03-2022.jpg\" border=\"0\" style=\"display: block !important; min-width: 700px !important; vertical-align: top;\" alt=\"AU BANK\">\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\n\t\t<tr>\n\t\t\t\t<td align=\"center\"  bgcolor=\"#ffffff\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"620\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #6D276D; line-height:36px; font-size: 32px;\">\n\t\t\t\t\t\t<strong>You didn't forget, right?</strong> <br /><strong style=\"color: #E46F21;\">We have a meeting in 15 mins!</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; line-height:20px; font-size: 15px;\">\n\t\t\t\t\t\t<strong>Hi $cust_name$,</strong><br /><br />\n                        We are waiting to see you for our scheduled meeting for your service request or transaction via Video Call.<br /><br />\n\nPlease use this $vtlink$<br /><br />\n\nKeep your original PAN card, blank paper and a pen ready with you.<br />\nThe call will begin in the next 15 minutes. <br /><br />\n\nCan't wait to e-meet you!\n<br /><br />\n<strong>Your AU Bank team</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\t   \n            \n      \n           \n\t\t  <tr>\n\t\t\t\t<td align=\"center\" style=\"border-bottom: 5px solid #000000;\" bgcolor=\"#E4E4E4\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"660\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n\t\t\t\t\t\t\t\t\t<table align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n\t\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 14px;\" width=\"95\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tFollow us on:\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://twitter.com/aubankindia/\" target=\"_blank\"><img alt=\"twitter\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/tw-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/aubank/\" target=\"_blank\"><img alt=\"linkedin\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/in-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.facebook.com/aubankindia\" target=\"_blank\"><img alt=\"facebook\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/fb-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.youtube.com/user/aufin1996\" target=\"_blank\"><img alt=\"youtube\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/yt-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/aubankindia/\" target=\"_blank\"><img alt=\"Instagram\" src=\"ihttps://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/ig-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" style=\"font-family: Arial, Helvetica, sans-serif; color: #404040; line-height:14px; font-size: 12px; \">\n\t\t\t\t\t\t\t\t\t<strong><em>Disclaimer:</em></strong><br />\n\t\t\t\t\t\t\t\t\t<em>Terms and conditions of AU Small Finance Bank and third parties apply. AU Small Finance Bank is not responsible for third-party goods, services or offers. All pictures shown are for illustration purpose only.</em>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</body>\n</html>",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "AU Video Banking link! Please use this link $vtlink$ to join our scheduled video call. The call will begin in the next 15 mins. \n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      },
+      {
+        "VAR_NAME": "$cust_name$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_NAME",
+        "DEFAULT_VALUE": "",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$cust_email$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_EMAIL",
+        "IS_NULLABLE": "Y"
+      }
+    ]
+  },
+  "VKYC_MEETING_LINK": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "Y",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "$cust_email$",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "AU VKYC link! Use this link to connect with us for your appointment",
+    "EMAIL_BODY": "Hi $cust_name$,\n\nPlease use this link $vtlink$ to join our scheduled meeting for VKYC. The call will begin in the next 15 mins. You can also join using the Schedule Call page on AU 0101 App.\n\nKindly keep your original PAN card, blank paper and a pen with you.\n\nLooking forward to always offering you the best of our services.\n\nYour AU Bank Team",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "AU Video Banking link! Please use this link $vtlink$ to join our scheduled meeting to complete your Video KYC . The call will begin in the next 15 mins. You can also join using the Schedule Call page on AU 0101 App.\n\nKindly keep your original PAN card, blank paper and a pen with you.\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      },
+      {
+        "VAR_NAME": "$cust_name$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_NAME",
+        "DEFAULT_VALUE": "",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$cust_email$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_EMAIL",
+        "IS_NULLABLE": "Y"
+      }
+    ]
+  },
+  "SR_MEETING_LINK": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "Y",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "$cust_email$",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "You didn't forget, right? We have a meeting in 15 mins!",
+    "EMAIL_BODY": "<center><span style=\"color:transparent;\">Use AU Bank Debit Card to get rewarded with every Swipe.</span></center>\n<!DOCTYPE html>\n<html>\n<head>\n\t<meta name=\"x-apple-disable-message-reformatting\">\n\t<meta name=\"color-scheme\" content=\"light dark\">\n\t<meta name=\"supported-color-schemes\" content=\"light dark\">\n\t<title>au video banking onboarding mailer</title>\n\t<style type=\"text/css\">\n\t\t:root {\n\t\t\tcolor-scheme: light dark;\n\t\t\tsupported-color-schemes: light dark;\n\t\t}\n\t\t@media (prefers-color-scheme: dark ) {\n\t\t\t.body {\n\t\t\t\tbackground-color: #fefefe !important;\n\t\t\t}\n\t\t}\n\t</style>\n</head>\n<body>\n\t<!-- Place this code here in the <body> of the email -->\n<div itemscope itemtype=\"http://schema.org/Organization\">\n\t<meta itemprop=\"name\" content=\"AU Bank\" />\n\t<meta itemprop=\"logo\" content=\"https://www.aubank.in/assets/images/logo.png\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/PromotionCard\">\n\t<meta itemprop=\"image\" content=\"https://i.ibb.co/d0pRx0c/banner-new.jpg\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n\t<meta itemprop=\"subjectLine\" content=\"Shopping Dhamaka: 10% off Amazon with AU Bank Debit Card ! \uD83D\uDC55 ⌚ \uD83D\uDCF1 \uD83D\uDED2\" />\n</div>\n\n\t<table align=\"center\" width=\"700\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px solid #cccccc;\">\n\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n                            \n\t\t\t\t\t\t\t\t\t<img src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/au-vid-bak-on-bor-mr-24-03-2022.jpg\" border=\"0\" style=\"display: block !important; min-width: 700px !important; vertical-align: top;\" alt=\"AU BANK\">\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\n\t\t<tr>\n\t\t\t\t<td align=\"center\"  bgcolor=\"#ffffff\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"620\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #6D276D; line-height:36px; font-size: 32px;\">\n\t\t\t\t\t\t<strong>You didn't forget, right?</strong> <br /><strong style=\"color: #E46F21;\">We have a meeting in 15 mins!</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; line-height:20px; font-size: 15px;\">\n\t\t\t\t\t\t<strong>Hi $cust_name$,</strong><br /><br />\n                        We are waiting to see you for our scheduled meeting for your service request or transaction via Video Call.<br /><br />\n\nPlease use this $vtlink$<br /><br />\n\nKeep your original PAN card, blank paper and a pen ready with you.<br />\nThe call will begin in the next 15 minutes. <br /><br />\n\nCan't wait to e-meet you!\n<br /><br />\n<strong>Your AU Bank team</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\t   \n            \n      \n           \n\t\t  <tr>\n\t\t\t\t<td align=\"center\" style=\"border-bottom: 5px solid #000000;\" bgcolor=\"#E4E4E4\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"660\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n\t\t\t\t\t\t\t\t\t<table align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n\t\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 14px;\" width=\"95\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tFollow us on:\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://twitter.com/aubankindia/\" target=\"_blank\"><img alt=\"twitter\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/tw-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/aubank/\" target=\"_blank\"><img alt=\"linkedin\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/in-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.facebook.com/aubankindia\" target=\"_blank\"><img alt=\"facebook\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/fb-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.youtube.com/user/aufin1996\" target=\"_blank\"><img alt=\"youtube\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/yt-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/aubankindia/\" target=\"_blank\"><img alt=\"Instagram\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/ig-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" style=\"font-family: Arial, Helvetica, sans-serif; color: #404040; line-height:14px; font-size: 12px; \">\n\t\t\t\t\t\t\t\t\t<strong><em>Disclaimer:</em></strong><br />\n\t\t\t\t\t\t\t\t\t<em>Terms and conditions of AU Small Finance Bank and third parties apply. AU Small Finance Bank is not responsible for third-party goods, services or offers. All pictures shown are for illustration purpose only.</em>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</body>\n</html>",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "AU Video Banking link! Please use this link $vtlink$ to join our scheduled meeting for Service Request. The call will begin in the next 15 mins.\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      },
+      {
+        "VAR_NAME": "$cust_name$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_NAME",
+        "DEFAULT_VALUE": "",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$cust_email$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_EMAIL",
+        "IS_NULLABLE": "Y"
+      }
+    ]
+  },
+  "APPOINTMENT_SETUP_SR": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "Y",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "$cust_email$",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "Pssst... You have a meeting scheduled with us!",
+    "EMAIL_BODY": "<center><span style=\"color:transparent;\">Use AU Bank Debit Card to get rewarded with every Swipe.</span></center>\n<!DOCTYPE html>\n<html>\n<head>\n\t<meta name=\"x-apple-disable-message-reformatting\">\n\t<meta name=\"color-scheme\" content=\"light dark\">\n\t<meta name=\"supported-color-schemes\" content=\"light dark\">\n\t<title>au video banking onboarding mailer</title>\n\t<style type=\"text/css\">\n\t\t:root {\n\t\t\tcolor-scheme: light dark;\n\t\t\tsupported-color-schemes: light dark;\n\t\t}\n\t\t@media (prefers-color-scheme: dark ) {\n\t\t\t.body {\n\t\t\t\tbackground-color: #fefefe !important;\n\t\t\t}\n\t\t}\n\t</style>\n</head>\n<body>\n\t<!-- Place this code here in the <body> of the email -->\n<div itemscope itemtype=\"http://schema.org/Organization\">\n\t<meta itemprop=\"name\" content=\"AU Bank\" />\n\t<meta itemprop=\"logo\" content=\"https://www.aubank.in/assets/images/logo.png\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/PromotionCard\">\n\t<meta itemprop=\"image\" content=\"https://i.ibb.co/d0pRx0c/banner-new.jpg\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n\t<meta itemprop=\"subjectLine\" content=\"Shopping Dhamaka: 10% off Amazon with AU Bank Debit Card ! \uD83D\uDC55 ⌚ \uD83D\uDCF1 \uD83D\uDED2\" />\n</div>\n\n\t<table align=\"center\" width=\"700\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px solid #cccccc;\">\n\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n                            \n\t\t\t\t\t\t\t\t\t<img src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/au-vid-bak-on-bor-mr-24-03-2022.jpg\" border=\"0\" style=\"display: block !important; min-width: 700px !important; vertical-align: top;\" alt=\"AU BANK\">\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\n\t\t<tr>\n\t\t\t\t<td align=\"center\"  bgcolor=\"#ffffff\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"620\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #6D276D; line-height:36px; font-size: 32px;\">\n\t\t\t\t\t\t<strong>Pssst... You have a meeting <br />scheduled with us!</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; line-height:20px; font-size: 15px;\">\n\t\t\t\t\t\t<strong>Hi $cust_name$,</strong><br /><br />Experience Video Banking as smooth as chatting with your friends<br /><br /> \n\nHere are the details for your service request or transaction via Video KYC on $date$ at $time$. All you need to do is keep your original PAN card, blank paper and a pen ready.<br /><br />\n\nOpen your account from the comfort of your home in your PJs with a nice cuppa coffee! What's not to love?<br /><br />\nLooking forward to always offering you the best of our services.\n<br /><br />\n<strong>Your AU Bank team</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\t   \n            \n      \n           \n\t\t  <tr>\n\t\t\t\t<td align=\"center\" style=\"border-bottom: 5px solid #000000;\" bgcolor=\"#E4E4E4\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"660\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n\t\t\t\t\t\t\t\t\t<table align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n\t\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 14px;\" width=\"95\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tFollow us on:\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://twitter.com/aubankindia/\" target=\"_blank\"><img alt=\"twitter\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/tw-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/aubank/\" target=\"_blank\"><img alt=\"linkedin\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/in-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.facebook.com/aubankindia\" target=\"_blank\"><img alt=\"facebook\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/fb-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.youtube.com/user/aufin1996\" target=\"_blank\"><img alt=\"youtube\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/yt-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/aubankindia/\" target=\"_blank\"><img alt=\"Instagram\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/ig-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" style=\"font-family: Arial, Helvetica, sans-serif; color: #404040; line-height:14px; font-size: 12px; \">\n\t\t\t\t\t\t\t\t\t<strong><em>Disclaimer:</em></strong><br />\n\t\t\t\t\t\t\t\t\t<em>Terms and conditions of AU Small Finance Bank and third parties apply. AU Small Finance Bank is not responsible for third-party goods, services or offers. All pictures shown are for illustration purpose only.</em>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</body>\n</html>",
+    "EMAIL_ATTACHMENT_PATHS": "$icsFilePath$",
+    "EMAIL_ATTACHMENT_FILE_NAME": "$icsFileName$",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Appointment Set! A video call has been scheduled on $date$ from $time$ for Service Request. \n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$date$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.DATE"
+      },
+      {
+        "VAR_NAME": "$time$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.TIME"
+      },
+      {
+        "VAR_NAME": "$cust_name$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_NAME",
+        "DEFAULT_VALUE": "",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$cust_email$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_EMAIL",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      },
+      {
+        "VAR_NAME": "$icsFilePath$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.EMAIL_ATTACHMENT"
+      }
+      ,
+      {
+        "VAR_NAME": "$icsFileName$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.EMAIL_ATTACHMENT_FILE_NAME"
+      }
+    ]
+  },
+  "APPOINTMENT_SETUP_VB": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "Y",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "$cust_email$",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "Pssst... You have a meeting scheduled with us!",
+    "EMAIL_BODY": "<center><span style=\"color:transparent;\">Use AU Bank Debit Card to get rewarded with every Swipe.</span></center>\n<!DOCTYPE html>\n<html>\n<head>\n\t<meta name=\"x-apple-disable-message-reformatting\">\n\t<meta name=\"color-scheme\" content=\"light dark\">\n\t<meta name=\"supported-color-schemes\" content=\"light dark\">\n\t<title>au video banking onboarding mailer</title>\n\t<style type=\"text/css\">\n\t\t:root {\n\t\t\tcolor-scheme: light dark;\n\t\t\tsupported-color-schemes: light dark;\n\t\t}\n\t\t@media (prefers-color-scheme: dark ) {\n\t\t\t.body {\n\t\t\t\tbackground-color: #fefefe !important;\n\t\t\t}\n\t\t}\n\t</style>\n</head>\n<body>\n\t<!-- Place this code here in the <body> of the email -->\n<div itemscope itemtype=\"http://schema.org/Organization\">\n\t<meta itemprop=\"name\" content=\"AU Bank\" />\n\t<meta itemprop=\"logo\" content=\"https://www.aubank.in/assets/images/logo.png\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/PromotionCard\">\n\t<meta itemprop=\"image\" content=\"https://i.ibb.co/d0pRx0c/banner-new.jpg\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n\t<meta itemprop=\"subjectLine\" content=\"Shopping Dhamaka: 10% off Amazon with AU Bank Debit Card ! \uD83D\uDC55 ⌚ \uD83D\uDCF1 \uD83D\uDED2\" />\n</div>\n\n\t<table align=\"center\" width=\"700\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px solid #cccccc;\">\n\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n                            \n\t\t\t\t\t\t\t\t\t<img src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/au-vid-bak-on-bor-mr-24-03-2022.jpg\" border=\"0\" style=\"display: block !important; min-width: 700px !important; vertical-align: top;\" alt=\"AU BANK\">\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\n\t\t<tr>\n\t\t\t\t<td align=\"center\"  bgcolor=\"#ffffff\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"620\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #6D276D; line-height:36px; font-size: 32px;\">\n\t\t\t\t\t\t<strong>Pssst... You have a meeting <br />scheduled with us!</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; line-height:20px; font-size: 15px;\">\n\t\t\t\t\t\t<strong>Hi $cust_name$,</strong><br /><br />Experience Video Banking as smooth as chatting with your friends<br /><br /> \n\nHere are the details for your Video Call on $date$ at $time$. All you need to do is keep your original PAN card, blank paper and a pen ready.<br /><br />\n\nOpen your account from the comfort of your home in your PJs with a nice cuppa coffee! What's not to love?<br /><br />\nLooking forward to always offering you the best of our services.\n<br /><br />\n<strong>Your AU Bank team</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\t   \n            \n      \n           \n\t\t  <tr>\n\t\t\t\t<td align=\"center\" style=\"border-bottom: 5px solid #000000;\" bgcolor=\"#E4E4E4\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"660\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n\t\t\t\t\t\t\t\t\t<table align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n\t\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 14px;\" width=\"95\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tFollow us on:\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://twitter.com/aubankindia/\" target=\"_blank\"><img alt=\"twitter\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/tw-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/aubank/\" target=\"_blank\"><img alt=\"linkedin\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/in-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.facebook.com/aubankindia\" target=\"_blank\"><img alt=\"facebook\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/fb-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.youtube.com/user/aufin1996\" target=\"_blank\"><img alt=\"youtube\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/yt-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/aubankindia/\" target=\"_blank\"><img alt=\"Instagram\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/ig-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" style=\"font-family: Arial, Helvetica, sans-serif; color: #404040; line-height:14px; font-size: 12px; \">\n\t\t\t\t\t\t\t\t\t<strong><em>Disclaimer:</em></strong><br />\n\t\t\t\t\t\t\t\t\t<em>Terms and conditions of AU Small Finance Bank and third parties apply. AU Small Finance Bank is not responsible for third-party goods, services or offers. All pictures shown are for illustration purpose only.</em>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</body>\n</html>",
+    "EMAIL_ATTACHMENT_PATHS": "$icsFilePath$",
+    "EMAIL_ATTACHMENT_FILE_NAME": "$icsFileName$",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Appointment Set! A video call has been scheduled on $date$ from $time$ for our meeting. \n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$date$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.DATE"
+      },
+      {
+        "VAR_NAME": "$time$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.TIME"
+      },
+      {
+        "VAR_NAME": "$cust_name$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_NAME",
+        "DEFAULT_VALUE": "",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$cust_email$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_EMAIL",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      },
+      {
+        "VAR_NAME": "$icsFilePath$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.EMAIL_ATTACHMENT"
+      }
+      ,
+      {
+        "VAR_NAME": "$icsFileName$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.EMAIL_ATTACHMENT_FILE_NAME"
+      }
+    ]
+  },
+  "APPOINTMENT_SETUP_SA": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "Y",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "$cust_email$",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "Pssst... You have a meeting scheduled with us!",
+    "EMAIL_BODY": "<center><span style=\"color:transparent;\">Use AU Bank Debit Card to get rewarded with every Swipe.</span></center>\n<!DOCTYPE html>\n<html>\n<head>\n\t<meta name=\"x-apple-disable-message-reformatting\">\n\t<meta name=\"color-scheme\" content=\"light dark\">\n\t<meta name=\"supported-color-schemes\" content=\"light dark\">\n\t<title>au video banking onboarding mailer</title>\n\t<style type=\"text/css\">\n\t\t:root {\n\t\t\tcolor-scheme: light dark;\n\t\t\tsupported-color-schemes: light dark;\n\t\t}\n\t\t@media (prefers-color-scheme: dark ) {\n\t\t\t.body {\n\t\t\t\tbackground-color: #fefefe !important;\n\t\t\t}\n\t\t}\n\t</style>\n</head>\n<body>\n\t<!-- Place this code here in the <body> of the email -->\n<div itemscope itemtype=\"http://schema.org/Organization\">\n\t<meta itemprop=\"name\" content=\"AU Bank\" />\n\t<meta itemprop=\"logo\" content=\"https://www.aubank.in/assets/images/logo.png\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/PromotionCard\">\n\t<meta itemprop=\"image\" content=\"https://i.ibb.co/d0pRx0c/banner-new.jpg\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n\t<meta itemprop=\"subjectLine\" content=\"Shopping Dhamaka: 10% off Amazon with AU Bank Debit Card ! \uD83D\uDC55 ⌚ \uD83D\uDCF1 \uD83D\uDED2\" />\n</div>\n\n\t<table align=\"center\" width=\"700\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px solid #cccccc;\">\n\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n                            \n\t\t\t\t\t\t\t\t\t<img src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/au-vid-bak-on-bor-mr-24-03-2022.jpg\" border=\"0\" style=\"display: block !important; min-width: 700px !important; vertical-align: top;\" alt=\"AU BANK\">\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\n\t\t<tr>\n\t\t\t\t<td align=\"center\"  bgcolor=\"#ffffff\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"620\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #6D276D; line-height:36px; font-size: 32px;\">\n\t\t\t\t\t\t<strong>Pssst... You have a meeting <br />scheduled with us!</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; line-height:20px; font-size: 15px;\">\n\t\t\t\t\t\t<strong>Hi $cust_name$,</strong><br /><br />Experience Video Banking as smooth as chatting with your friends<br /><br /> \n\nHere are the details for Savings A/c via Video KYC $date$ at $time$ All you need to do is  keep your original PAN card, blank paper and a pen ready.<br /><br />\n\nOpen your account from the comfort of your home in your PJs with a nice cuppa coffee! What's not to love?<br /><br />\nLooking forward to always offering you the best of our services.\n<br /><br />\n<strong>Your AU Bank team</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\t   \n            \n      \n           \n\t\t  <tr>\n\t\t\t\t<td align=\"center\" style=\"border-bottom: 5px solid #000000;\" bgcolor=\"#E4E4E4\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"660\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n\t\t\t\t\t\t\t\t\t<table align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n\t\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 14px;\" width=\"95\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tFollow us on:\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://twitter.com/aubankindia/\" target=\"_blank\"><img alt=\"twitter\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/tw-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/aubank/\" target=\"_blank\"><img alt=\"linkedin\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/in-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.facebook.com/aubankindia\" target=\"_blank\"><img alt=\"facebook\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/fb-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.youtube.com/user/aufin1996\" target=\"_blank\"><img alt=\"youtube\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/yt-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/aubankindia/\" target=\"_blank\"><img alt=\"Instagram\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/ig-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" style=\"font-family: Arial, Helvetica, sans-serif; color: #404040; line-height:14px; font-size: 12px; \">\n\t\t\t\t\t\t\t\t\t<strong><em>Disclaimer:</em></strong><br />\n\t\t\t\t\t\t\t\t\t<em>Terms and conditions of AU Small Finance Bank and third parties apply. AU Small Finance Bank is not responsible for third-party goods, services or offers. All pictures shown are for illustration purpose only.</em>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</body>\n</html>",
+    "EMAIL_ATTACHMENT_PATHS": "$icsFilePath$",
+    "EMAIL_ATTACHMENT_FILE_NAME": "$icsFileName$",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Appointment Set! A video call has been scheduled on $date$ from $time$ to open your AU Bank Savings A/c through VKYC.\n\nPlease keep your original PAN card, blank paper and a pen with you.\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$date$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.DATE"
+      },
+      {
+        "VAR_NAME": "$time$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.TIME"
+      },
+      {
+        "VAR_NAME": "$cust_name$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_NAME",
+        "DEFAULT_VALUE": "",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$cust_email$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_EMAIL",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$icsFilePath$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.EMAIL_ATTACHMENT"
+      }
+      ,
+      {
+        "VAR_NAME": "$icsFileName$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.EMAIL_ATTACHMENT_FILE_NAME"
+      }
+    ]
+  },
+  "APPOINTMENT_SETUP_FD": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "Y",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "$cust_email$",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "Pssst... You have a meeting scheduled with us!",
+    "EMAIL_BODY": "<center><span style=\"color:transparent;\">Use AU Bank Debit Card to get rewarded with every Swipe.</span></center>\n<!DOCTYPE html>\n<html>\n<head>\n\t<meta name=\"x-apple-disable-message-reformatting\">\n\t<meta name=\"color-scheme\" content=\"light dark\">\n\t<meta name=\"supported-color-schemes\" content=\"light dark\">\n\t<title>au video banking onboarding mailer</title>\n\t<style type=\"text/css\">\n\t\t:root {\n\t\t\tcolor-scheme: light dark;\n\t\t\tsupported-color-schemes: light dark;\n\t\t}\n\t\t@media (prefers-color-scheme: dark ) {\n\t\t\t.body {\n\t\t\t\tbackground-color: #fefefe !important;\n\t\t\t}\n\t\t}\n\t</style>\n</head>\n<body>\n\t<!-- Place this code here in the <body> of the email -->\n<div itemscope itemtype=\"http://schema.org/Organization\">\n\t<meta itemprop=\"name\" content=\"AU Bank\" />\n\t<meta itemprop=\"logo\" content=\"https://www.aubank.in/assets/images/logo.png\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/PromotionCard\">\n\t<meta itemprop=\"image\" content=\"https://i.ibb.co/d0pRx0c/banner-new.jpg\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n\t<meta itemprop=\"subjectLine\" content=\"Shopping Dhamaka: 10% off Amazon with AU Bank Debit Card ! \uD83D\uDC55 ⌚ \uD83D\uDCF1 \uD83D\uDED2\" />\n</div>\n\n\t<table align=\"center\" width=\"700\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px solid #cccccc;\">\n\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n                            \n\t\t\t\t\t\t\t\t\t<img src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/au-vid-bak-on-bor-mr-24-03-2022.jpg\" border=\"0\" style=\"display: block !important; min-width: 700px !important; vertical-align: top;\" alt=\"AU BANK\">\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\n\t\t<tr>\n\t\t\t\t<td align=\"center\"  bgcolor=\"#ffffff\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"620\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #6D276D; line-height:36px; font-size: 32px;\">\n\t\t\t\t\t\t<strong>Pssst... You have a meeting <br />scheduled with us!</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; line-height:20px; font-size: 15px;\">\n\t\t\t\t\t\t<strong>Hi $cust_name$,</strong><br /><br />Experience Video Banking as smooth as chatting with your friends<br /><br /> \n\nHere are the details for FD via Video KYC on $date$ at $time$. All you need to do is keep your original PAN card, blank paper and a pen ready.<br /><br />\n\nOpen your account from the comfort of your home in your PJs with a nice cuppa coffee! What's not to love?<br /><br />\nLooking forward to always offering you the best of our services.\n<br /><br />\n<strong>Your AU Bank team</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\t   \n            \n      \n           \n\t\t  <tr>\n\t\t\t\t<td align=\"center\" style=\"border-bottom: 5px solid #000000;\" bgcolor=\"#E4E4E4\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"660\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n\t\t\t\t\t\t\t\t\t<table align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n\t\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 14px;\" width=\"95\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tFollow us on:\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://twitter.com/aubankindia/\" target=\"_blank\"><img alt=\"twitter\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/tw-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/aubank/\" target=\"_blank\"><img alt=\"linkedin\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/in-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.facebook.com/aubankindia\" target=\"_blank\"><img alt=\"facebook\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/fb-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.youtube.com/user/aufin1996\" target=\"_blank\"><img alt=\"youtube\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/yt-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/aubankindia/\" target=\"_blank\"><img alt=\"Instagram\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/ig-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" style=\"font-family: Arial, Helvetica, sans-serif; color: #404040; line-height:14px; font-size: 12px; \">\n\t\t\t\t\t\t\t\t\t<strong><em>Disclaimer:</em></strong><br />\n\t\t\t\t\t\t\t\t\t<em>Terms and conditions of AU Small Finance Bank and third parties apply. AU Small Finance Bank is not responsible for third-party goods, services or offers. All pictures shown are for illustration purpose only.</em>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</body>\n</html>",
+    "EMAIL_ATTACHMENT_PATHS": "$icsFilePath$",
+    "EMAIL_ATTACHMENT_FILE_NAME": "$icsFileName$",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Appointment Set! A video call has been scheduled on $date$ from $time$ to open your FD through VKYC.\nPlease keep your original PAN card, blank paper and a pen with you.\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$date$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.DATE"
+      },
+      {
+        "VAR_NAME": "$time$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.TIME"
+      },
+      {
+        "VAR_NAME": "$cust_name$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_NAME",
+        "DEFAULT_VALUE": "",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$cust_email$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_EMAIL",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$icsFilePath$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.EMAIL_ATTACHMENT"
+      }
+      ,
+      {
+        "VAR_NAME": "$icsFileName$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.EMAIL_ATTACHMENT_FILE_NAME"
+      }
+    ]
+  },
+  "APPOINTMENT_SETUP_VKYC": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "Y",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "$cust_email$",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "Appointment Set! Your first step towards completing your VKYC",
+    "EMAIL_BODY": "Hi $cust_name$,\n\nA video call has been scheduled on $date$ from $time$ for VKYC.\n\nPlease keep your original PAN card, blank paper and a pen with you.\n\nLooking forward to always offering you the best of our services.\n\nYour AU Bank Team",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Appointment Set! A video call has been scheduled on $date$ from $time$ for VKYC.\nPlease keep your original PAN card, blank paper and a pen with you.\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$date$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.DATE"
+      },
+      {
+        "VAR_NAME": "$time$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.TIME"
+      },
+      {
+        "VAR_NAME": "$cust_name$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_NAME",
+        "DEFAULT_VALUE": "",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$cust_email$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_EMAIL",
+        "IS_NULLABLE": "Y"
+      }
+    ]
+  },
+  "SA_MEETING_LINK": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "Y",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "$cust_email$",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "You didn't forget, right? We have a meeting in 15 mins!",
+    "EMAIL_BODY": "<center><span style=\"color:transparent;\">Use AU Bank Debit Card to get rewarded with every Swipe.</span></center>\n<!DOCTYPE html>\n<html>\n<head>\n\t<meta name=\"x-apple-disable-message-reformatting\">\n\t<meta name=\"color-scheme\" content=\"light dark\">\n\t<meta name=\"supported-color-schemes\" content=\"light dark\">\n\t<title>au video banking onboarding mailer</title>\n\t<style type=\"text/css\">\n\t\t:root {\n\t\t\tcolor-scheme: light dark;\n\t\t\tsupported-color-schemes: light dark;\n\t\t}\n\t\t@media (prefers-color-scheme: dark ) {\n\t\t\t.body {\n\t\t\t\tbackground-color: #fefefe !important;\n\t\t\t}\n\t\t}\n\t</style>\n</head>\n<body>\n\t<!-- Place this code here in the <body> of the email -->\n<div itemscope itemtype=\"http://schema.org/Organization\">\n\t<meta itemprop=\"name\" content=\"AU Bank\" />\n\t<meta itemprop=\"logo\" content=\"https://www.aubank.in/assets/images/logo.png\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/PromotionCard\">\n\t<meta itemprop=\"image\" content=\"https://i.ibb.co/d0pRx0c/banner-new.jpg\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n\t<meta itemprop=\"subjectLine\" content=\"Shopping Dhamaka: 10% off Amazon with AU Bank Debit Card ! \uD83D\uDC55 ⌚ \uD83D\uDCF1 \uD83D\uDED2\" />\n</div>\n\n\t<table align=\"center\" width=\"700\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px solid #cccccc;\">\n\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n                            \n\t\t\t\t\t\t\t\t\t<img src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/au-vid-bak-on-bor-mr-24-03-2022.jpg\" border=\"0\" style=\"display: block !important; min-width: 700px !important; vertical-align: top;\" alt=\"AU BANK\">\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\n\t\t<tr>\n\t\t\t\t<td align=\"center\"  bgcolor=\"#ffffff\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"620\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #6D276D; line-height:36px; font-size: 32px;\">\n\t\t\t\t\t\t<strong>You didn't forget, right?</strong> <br /><strong style=\"color: #E46F21;\">We have a meeting in 15 mins!</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; line-height:20px; font-size: 15px;\">\n\t\t\t\t\t\t<strong>Hi $cust_name$,</strong><br /><br />\n                        We are waiting to see you for our scheduled meeting for Savings A/c opening through Video KYC.<br /><br />\n\nPlease use this $vtlink$<br /><br />\n\nKeep your original PAN card, blank paper and a pen ready with you.<br />\nThe call will begin in the next 15 minutes. <br /><br />\n\nCan't wait to e-meet you!\n<br /><br />\n<strong>Your AU Bank team</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\t   \n            \n      \n           \n\t\t  <tr>\n\t\t\t\t<td align=\"center\" style=\"border-bottom: 5px solid #000000;\" bgcolor=\"#E4E4E4\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"660\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n\t\t\t\t\t\t\t\t\t<table align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n\t\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 14px;\" width=\"95\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tFollow us on:\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://twitter.com/aubankindia/\" target=\"_blank\"><img alt=\"twitter\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/tw-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/aubank/\" target=\"_blank\"><img alt=\"linkedin\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/in-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.facebook.com/aubankindia\" target=\"_blank\"><img alt=\"facebook\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/fb-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.youtube.com/user/aufin1996\" target=\"_blank\"><img alt=\"youtube\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/yt-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/aubankindia/\" target=\"_blank\"><img alt=\"Instagram\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/ig-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" style=\"font-family: Arial, Helvetica, sans-serif; color: #404040; line-height:14px; font-size: 12px; \">\n\t\t\t\t\t\t\t\t\t<strong><em>Disclaimer:</em></strong><br />\n\t\t\t\t\t\t\t\t\t<em>Terms and conditions of AU Small Finance Bank and third parties apply. AU Small Finance Bank is not responsible for third-party goods, services or offers. All pictures shown are for illustration purpose only.</em>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</body>\n</html>",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "AU Video Banking link! Please use this link $vtlink$ to join our scheduled meeting for Savings A/c opening through Video Banking. The call will begin in the next 15 mins. You can also join using the Schedule Call page on the AU 0101 App.\n\nKindly keep your original PAN card, blank paper and a pen with you.\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      },
+      {
+        "VAR_NAME": "$cust_name$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_NAME",
+        "DEFAULT_VALUE": "",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$cust_email$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_EMAIL",
+        "IS_NULLABLE": "Y"
+      }
+    ]
+  },
+  "FD_MEETING_LINK": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "Y",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "$cust_email$",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "You didn't forget, right? We have a meeting in 15 mins!",
+    "EMAIL_BODY": "<center><span style=\"color:transparent;\">Use AU Bank Debit Card to get rewarded with every Swipe.</span></center>\n<!DOCTYPE html>\n<html>\n<head>\n\t<meta name=\"x-apple-disable-message-reformatting\">\n\t<meta name=\"color-scheme\" content=\"light dark\">\n\t<meta name=\"supported-color-schemes\" content=\"light dark\">\n\t<title>au video banking onboarding mailer</title>\n\t<style type=\"text/css\">\n\t\t:root {\n\t\t\tcolor-scheme: light dark;\n\t\t\tsupported-color-schemes: light dark;\n\t\t}\n\t\t@media (prefers-color-scheme: dark ) {\n\t\t\t.body {\n\t\t\t\tbackground-color: #fefefe !important;\n\t\t\t}\n\t\t}\n\t</style>\n</head>\n<body>\n\t<!-- Place this code here in the <body> of the email -->\n<div itemscope itemtype=\"http://schema.org/Organization\">\n\t<meta itemprop=\"name\" content=\"AU Bank\" />\n\t<meta itemprop=\"logo\" content=\"https://www.aubank.in/assets/images/logo.png\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/PromotionCard\">\n\t<meta itemprop=\"image\" content=\"https://i.ibb.co/d0pRx0c/banner-new.jpg\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n\t<meta itemprop=\"subjectLine\" content=\"Shopping Dhamaka: 10% off Amazon with AU Bank Debit Card ! \uD83D\uDC55 ⌚ \uD83D\uDCF1 \uD83D\uDED2\" />\n</div>\n\n\t<table align=\"center\" width=\"700\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px solid #cccccc;\">\n\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n                            \n\t\t\t\t\t\t\t\t\t<img src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/au-vid-bak-on-bor-mr-24-03-2022.jpg\" border=\"0\" style=\"display: block !important; min-width: 700px !important; vertical-align: top;\" alt=\"AU BANK\">\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\n\t\t<tr>\n\t\t\t\t<td align=\"center\"  bgcolor=\"#ffffff\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"620\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #6D276D; line-height:36px; font-size: 32px;\">\n\t\t\t\t\t\t<strong>You didn't forget, right?</strong> <br /><strong style=\"color: #E46F21;\">We have a meeting in 15 mins!</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; line-height:20px; font-size: 15px;\">\n\t\t\t\t\t\t<strong>Hi $cust_name$,</strong><br /><br />\n                        We are waiting to see you for our scheduled meeting for Fixed Deposit opening through Video KYC.<br /><br />\n\nPlease use this $vtlink$<br /><br />\n\nKeep your original PAN card, blank paper and a pen ready with you.<br />\nThe call will begin in the next 15 minutes. <br /><br />\n\nCan't wait to e-meet you!\n<br /><br />\n<strong>Your AU Bank team</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\t   \n            \n      \n           \n\t\t  <tr>\n\t\t\t\t<td align=\"center\" style=\"border-bottom: 5px solid #000000;\" bgcolor=\"#E4E4E4\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"660\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n\t\t\t\t\t\t\t\t\t<table align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n\t\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 14px;\" width=\"95\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tFollow us on:\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://twitter.com/aubankindia/\" target=\"_blank\"><img alt=\"twitter\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/tw-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/aubank/\" target=\"_blank\"><img alt=\"linkedin\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/in-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.facebook.com/aubankindia\" target=\"_blank\"><img alt=\"facebook\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/fb-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.youtube.com/user/aufin1996\" target=\"_blank\"><img alt=\"youtube\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/yt-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/aubankindia/\" target=\"_blank\"><img alt=\"Instagram\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/ig-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" style=\"font-family: Arial, Helvetica, sans-serif; color: #404040; line-height:14px; font-size: 12px; \">\n\t\t\t\t\t\t\t\t\t<strong><em>Disclaimer:</em></strong><br />\n\t\t\t\t\t\t\t\t\t<em>Terms and conditions of AU Small Finance Bank and third parties apply. AU Small Finance Bank is not responsible for third-party goods, services or offers. All pictures shown are for illustration purpose only.</em>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</body>\n</html>",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "AU Video Banking link! Please use this link $vtlink$ to join our scheduled meeting for Fixed Deposit through Video Banking. The call will begin in the next 15 mins. You can also join using the schedule call page on AU 0101 App.\nKindly keep your original PAN card, blank paper and a pen with you.\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      },
+      {
+        "VAR_NAME": "$cust_name$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_NAME",
+        "DEFAULT_VALUE": "",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$cust_email$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_EMAIL",
+        "IS_NULLABLE": "Y"
+      }
+    ]
+  },
+
+  "SR_REJECTED": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "We're sorry your Service Request (SR) was not processed. Schedule another call once the SR requirements are complete:$au_app_link$\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$au_app_link$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VB_UNIVERSAL_URL"
+      }
+    ]
+  },
+  "VKYC_REJECTED_FD": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Just a hiccup! We could not process your VKYC application due to certain regulatory guidelines. Our representative will get in touch with you for opening a Fixed Deposit through the nearest branch.\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      }
+    ]
+  },
+  "VKYC_REJECTED_SA": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Just a hiccup! We could not process your VKYC application due to certain regulatory guidelines. Our representative will get in touch with you for opening an account through the nearest branch. - AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      }
+    ]
+  },
+  "SA_OTP": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "$otp$ is the confirmation code to verify your Mobile No. $mobile$ for your AU Bank Savings Account through VKYC. This Code is valid for 60 seconds\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$otp$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.OTP"
+      }
+    ]
+  },
+  "FD_OTP": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "$otp$ is the confirmation code to verify your Mobile No. $mobile$ for your AU Bank Fixed deposit through VKYC. This Code is valid for 60 seconds\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$otp$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.OTP"
+      }
+    ]
+  },
+  "SR_OTP": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "$otp$ is the confirmation code to verify your Mobile No. $mobile$ for your Service Request. This Code is valid for 60 seconds\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$otp$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.OTP"
+      }
+    ]
+  },
+  "GENERIC_OTP_VB": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRECnD": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "$otp$ is the confirmation code to verify your Mobile No. $mobile$ for your Video Call. This Code is valid for 60 seconds\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$otp$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.OTP"
+      }
+    ]
+  },
+  "VKYC_OTP": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "$otp$ is the confirmation code to verify your Mobile No. $mobile$ for your VKYC. This Code is valid for 60 seconds\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$otp$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.OTP"
+      }
+    ]
+  },
+  "VKYC_SUCCESS": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Thank you for connecting with us! Your VKYC application is under process. We will get back to you soon.\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      }
+    ]
+  },
+  "DROPOFF_UNABLE_SA": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "We can't wait for you to join us!\nTo continue opening your AU Bank Savings A/c through VKYC, please click here $vtlink$ . T&amp;C* Apply\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      }
+    ]
+  },
+  "DROPOFF_UNABLE_FD": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Your Fixed Deposit is just a click away!\nTo continue opening your AU Bank Fixed Deposit Account through VKYC, please click here $vtlink$ . T&amp;C* Apply\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      }
+    ]
+  },
+  "DROPOFF_UNABLE_VKYC": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "We can't wait for you to join us!\nTo continue your VKYC process, please click here $vtlink$ . T&amp;C* Apply\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      }
+    ]
+  },
+  "DROPOFF_AFTER_MOBILE_NO_SA": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Still missing out on high interest rates? Complete your Savings Account application on AU 0101 in a few steps. Click $vtlink$\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      }
+    ]
+  },
+  "DROPOFF_AFTER_MOBILE_NO_TD": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Still missing out on high interest rates? Complete your Fixed Deposit application on AU 0101 in a few steps. Click $vtlink$\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      }
+    ]
+  },
+  "DROPOFF_VB_NTB": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "We missed your call. Kindly connect with our video bankers using AU 0101 from 8AM to 8PM: $au_app_link$\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$au_app_link$",
+        "DATA_SOURCE": "CONSTANT",
+        "VALUE": "https://aubank.onelink.me/oBF3/au0101ib"
+      }
+    ]
+  },
+  "DROPOFF_VB_ETB": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "We missed your call. Kindly connect with our video bankers using AU 0101 from 8AM to 8PM: $vtlink$\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      }
+    ]
+  },
+  "DROPOFF_AFTER_EKYC_SA": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Just a few steps to complete your Savings Account application on AU 0101. To start earning higher interest, continue here: $vtlink$\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      }
+    ]
+  },
+  "DROPOFF_AFTER_EKYC_TD": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Just a few steps to complete your Fixed Deposit application on AU 0101. To start earning higher interest, continue here: $vtlink$\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      }
+    ]
+  },
+  "DROPOFF_VKYC_PENDING_SA": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "You're just 1 step away from completing your Savings Account application on AU 0101. Our video bankers are available between 8AM to 8PM. To connect, click: $vtlink$\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      }
+    ]
+  },
+  "DROPOFF_VKYC_PENDING_TD": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "You're just 1 step away from completing your Term Deposit application on AU 0101. Our video bankers are available between 8AM to 8PM. To connect, click: $vtlink$\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      }
+    ]
+  },
+  "MIN_KYC_ACCOUNT_OPENED": {
+    "SMS_REQUIRED": "N",
+    "EMAIL_REQUIRED": "Y",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "$cust_email$",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "AU Small Finance Bank Account details\n",
+    "EMAIL_BODY": "Dear $cust_name$,\n\nAU Namaskar,\n\nThank you for selecting AU Small Finance Bank as your bank of choice.\n\nPlease find enclosed the details shared and verified by you during the account opening process. We request your kind perusal of the shared details and in case of any discrepancy, we request you to immediately get in touch with your nearest AU Small Finance Bank branch or our representative who assisted you in the on-boarding process.\n\nThe enclosed document is a password protected PDF document and the password is the combination of your first name (in capital letters) and your date of birth (in DDMMYYYY format).\nFor example, if your account name is RAVI VERMA and DOB is 13-01-1992, then your password will be RAVI13011992.\nPlease note: The password is case-sensitive, hence request you to ensure that the details of the first name are mentioned in capital letters.\n\nWe would be delighted to offer our services to your near and dear ones as well. Should you be interested, you may please leave the contact details of your references in the form available in the following link and we?ll get in touch with them on your behalf.\n\nClick here to refer your friends and family !!\n\nFor any further assistance, request you to visit your nearest AU Small Finance Bank branch or get in touch with our Customer Care at 1800 1200 1200.\n\nWe assure you of our best services always.\n\nNote -Revised Schedule of Charges w.e.f. 1st September 2018 for new accounts & w.e.f. 1st October 2018 for existing accounts(Opened till 31st August?18), for more details please refer AU Bank`s website at below link.\n\nhttps://www.aubank.in/schedule-charges\n\nWarm Regards,\nAU SMALL FINANCE BANK LTD.\n\n\n-- Please do not reply to this mail as this is an auto-generated email --\n\n\nDISCLAIMER: This e-mail message and any attachment thereto contains confidential, proprietary and legally privileged information. It is for the exclusive use of the addressee.\nIf you are not the addressee please note that any distribution, copying or use of this communication or the information in it is prohibited. If you are not the intended recipient, please notify us,\npreferably by e-mail, and do not read, copy or disclose the contents of this message to anyone and permanently delete this message and all attachments, if any, from your system.\nThe recipient must note and understand that any views expressed in this message are those of the individual sender and no binding nature of the message shall be implied or assumed\nunless the sender does so expressly with due authority of AU Small Finance Bank Limited. Before opening and accessing the attachment, if any, please check and scan for virus.",
+    "EMAIL_ATTACHMENT_PATHS": "$attachment_paths$",
+    "SMS_TO": "",
+    "SMS_BODY": "",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$cust_name$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_NAME",
+        "DEFAULT_VALUE": "",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$cust_email$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_EMAIL",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$attachment_paths$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.EMAIL_ATTACHMENT_PATHS",
+        "IS_NULLABLE": "Y"
+      }
+    ]
+  },
+  "DROPOFF_AFTER_MOBILE_NO_MIN_TO_FKYC": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Still missing out on high interest rates? Complete your $acc_upgrade_process$ on AU 0101 in a few steps: $vtlink$\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      },
+      {
+        "VAR_NAME": "$acc_upgrade_process$",
+        "DATA_SOURCE": "CONSTANT",
+        "VALUE": "Account upgrade process"
+      }
+    ]
+  },
+  "DROPOFF_AFTER_EKYC_MIN_TO_FKYC": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Just a few steps to complete your $acc_upgrade_process$ on AU 0101. To start earning higher interest, continue here: $vtlink$\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      },
+      {
+        "VAR_NAME": "$acc_upgrade_process$",
+        "DATA_SOURCE": "CONSTANT",
+        "VALUE": "Account upgrade process"
+      }
+    ]
+  },
+  "DROPOFF_VKYC_PENDING_MIN_TO_FKYC": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "You're just 1 step away from $upgrading$ your $au_abhi$ A/c on AU 0101. Our video bankers are available between 8 AM to 8 PM. To connect, click: $vtlink$\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      },
+      {
+        "VAR_NAME": "$upgrading$",
+        "DATA_SOURCE": "CONSTANT",
+        "VALUE": "upgrading"
+      },
+      {
+        "VAR_NAME": "$au_abhi$",
+        "DATA_SOURCE": "CONSTANT",
+        "VALUE": "AU ABHI"
+      }
+    ]
+  },
+  "MIN_TO_FKYC_MOBILE_OTP": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "$otp$ is the confirmation code to verify Mobile No. $mobile$ to $au_abhi$ your $upgrade$ Account via VKYC. [Code is valid for 60 seconds]\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$otp$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.OTP"
+      },
+      {
+        "VAR_NAME": "$upgrade$",
+        "DATA_SOURCE": "CONSTANT",
+        "VALUE": "upgrade"
+      },
+      {
+        "VAR_NAME": "$au_abhi$",
+        "DATA_SOURCE": "CONSTANT",
+        "VALUE": "AU ABHI"
+      }
+    ]
+  },
+  "APPOINTMENT_SETUP_MIN_TO_FKYC": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "Y",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "$cust_email$",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "Pssst... You have a meeting scheduled with us!",
+    "EMAIL_BODY": "<center><span style=\"color:transparent;\">Use AU Bank Debit Card to get rewarded with every Swipe.</span></center>\n<!DOCTYPE html>\n<html>\n<head>\n\t<meta name=\"x-apple-disable-message-reformatting\">\n\t<meta name=\"color-scheme\" content=\"light dark\">\n\t<meta name=\"supported-color-schemes\" content=\"light dark\">\n\t<title>au video banking onboarding mailer</title>\n\t<style type=\"text/css\">\n\t\t:root {\n\t\t\tcolor-scheme: light dark;\n\t\t\tsupported-color-schemes: light dark;\n\t\t}\n\t\t@media (prefers-color-scheme: dark ) {\n\t\t\t.body {\n\t\t\t\tbackground-color: #fefefe !important;\n\t\t\t}\n\t\t}\n\t</style>\n</head>\n<body>\n\t<!-- Place this code here in the <body> of the email -->\n<div itemscope itemtype=\"http://schema.org/Organization\">\n\t<meta itemprop=\"name\" content=\"AU Bank\" />\n\t<meta itemprop=\"logo\" content=\"https://www.aubank.in/assets/images/logo.png\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/PromotionCard\">\n\t<meta itemprop=\"image\" content=\"https://i.ibb.co/d0pRx0c/banner-new.jpg\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n\t<meta itemprop=\"subjectLine\" content=\"Shopping Dhamaka: 10% off Amazon with AU Bank Debit Card ! \uD83D\uDC55 ⌚ \uD83D\uDCF1 \uD83D\uDED2\" />\n</div>\n\n\t<table align=\"center\" width=\"700\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px solid #cccccc;\">\n\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n                            \n\t\t\t\t\t\t\t\t\t<img src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/au-vid-bak-on-bor-mr-24-03-2022.jpg\" border=\"0\" style=\"display: block !important; min-width: 700px !important; vertical-align: top;\" alt=\"AU BANK\">\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\n\t\t<tr>\n\t\t\t\t<td align=\"center\"  bgcolor=\"#ffffff\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"620\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #6D276D; line-height:36px; font-size: 32px;\">\n\t\t\t\t\t\t<strong>Pssst... You have a meeting <br />scheduled with us!</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; line-height:20px; font-size: 15px;\">\n\t\t\t\t\t\t<strong>Hi $cust_name$,</strong><br /><br />Experience Video Banking as smooth as chatting with your friends<br /><br /> \n\nHere are the details for upgrading your AU Abhi A/c via Video KYC on $date$ at $time$. All you need to do is keep your original PAN card, blank paper and a pen ready.<br /><br />\n\nOpen your account from the comfort of your home in your PJs with a nice cuppa coffee! What's not to love?<br /><br />\nLooking forward to always offering you the best of our services.\n<br /><br />\n<strong>Your AU Bank team</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\t   \n            \n      \n           \n\t\t  <tr>\n\t\t\t\t<td align=\"center\" style=\"border-bottom: 5px solid #000000;\" bgcolor=\"#E4E4E4\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"660\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n\t\t\t\t\t\t\t\t\t<table align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n\t\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 14px;\" width=\"95\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tFollow us on:\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://twitter.com/aubankindia/\" target=\"_blank\"><img alt=\"twitter\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/tw-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/aubank/\" target=\"_blank\"><img alt=\"linkedin\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/in-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.facebook.com/aubankindia\" target=\"_blank\"><img alt=\"facebook\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/fb-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.youtube.com/user/aufin1996\" target=\"_blank\"><img alt=\"youtube\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/yt-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/aubankindia/\" target=\"_blank\"><img alt=\"Instagram\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/ig-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" style=\"font-family: Arial, Helvetica, sans-serif; color: #404040; line-height:14px; font-size: 12px; \">\n\t\t\t\t\t\t\t\t\t<strong><em>Disclaimer:</em></strong><br />\n\t\t\t\t\t\t\t\t\t<em>Terms and conditions of AU Small Finance Bank and third parties apply. AU Small Finance Bank is not responsible for third-party goods, services or offers. All pictures shown are for illustration purpose only.</em>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</body>\n</html>",
+    "EMAIL_ATTACHMENT_PATHS": "$icsFilePath$",
+    "EMAIL_ATTACHMENT_FILE_NAME": "$icsFileName$",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Appointment Set! A video call is scheduled on $date$ at $time$ for $acc_upgrade$ through VKYC. Keep your original PAN card, blank paper and a pen ready.\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$date$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.DATE"
+      },
+      {
+        "VAR_NAME": "$time$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.TIME"
+      },
+      {
+        "VAR_NAME": "$acc_upgrade$",
+        "DATA_SOURCE": "CONSTANT",
+        "VALUE": "Account Upgrade"
+      },
+      {
+        "VAR_NAME": "$cust_name$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_NAME",
+        "DEFAULT_VALUE": "",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$cust_email$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_EMAIL",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$icsFilePath$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.EMAIL_ATTACHMENT"
+      },
+      {
+        "VAR_NAME": "$au_abhi_acc$",
+        "DATA_SOURCE": "CONSTANT",
+        "VALUE": "AU ABHI A/C"
+      },
+      {
+        "VAR_NAME": "$icsFileName$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.EMAIL_ATTACHMENT_FILE_NAME"
+      }
+    ]
+  },
+  "MIN_TO_FKYC_MEETING_LINK": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "Y",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "$cust_email$",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "You didn't forget, right? We have a meeting in 15 mins!",
+    "EMAIL_BODY": "<center><span style=\"color:transparent;\">Use AU Bank Debit Card to get rewarded with every Swipe.</span></center>\n<!DOCTYPE html>\n<html>\n<head>\n\t<meta name=\"x-apple-disable-message-reformatting\">\n\t<meta name=\"color-scheme\" content=\"light dark\">\n\t<meta name=\"supported-color-schemes\" content=\"light dark\">\n\t<title>au video banking onboarding mailer</title>\n\t<style type=\"text/css\">\n\t\t:root {\n\t\t\tcolor-scheme: light dark;\n\t\t\tsupported-color-schemes: light dark;\n\t\t}\n\t\t@media (prefers-color-scheme: dark ) {\n\t\t\t.body {\n\t\t\t\tbackground-color: #fefefe !important;\n\t\t\t}\n\t\t}\n\t</style>\n</head>\n<body>\n\t<!-- Place this code here in the <body> of the email -->\n<div itemscope itemtype=\"http://schema.org/Organization\">\n\t<meta itemprop=\"name\" content=\"AU Bank\" />\n\t<meta itemprop=\"logo\" content=\"https://www.aubank.in/assets/images/logo.png\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/PromotionCard\">\n\t<meta itemprop=\"image\" content=\"https://i.ibb.co/d0pRx0c/banner-new.jpg\" />\n</div>\n<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n\t<meta itemprop=\"subjectLine\" content=\"Shopping Dhamaka: 10% off Amazon with AU Bank Debit Card ! \uD83D\uDC55 ⌚ \uD83D\uDCF1 \uD83D\uDED2\" />\n</div>\n\n\t<table align=\"center\" width=\"700\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px solid #cccccc;\">\n\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n                            \n\t\t\t\t\t\t\t\t\t<img src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/au-vid-bak-on-bor-mr-24-03-2022.jpg\" border=\"0\" style=\"display: block !important; min-width: 700px !important; vertical-align: top;\" alt=\"AU BANK\">\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\n\t\t<tr>\n\t\t\t\t<td align=\"center\"  bgcolor=\"#ffffff\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"620\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody><tr>\n\t\t\t\t\t\t\t\t<td align=\"center\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #6D276D; line-height:36px; font-size: 32px;\">\n\t\t\t\t\t\t<strong>You didn't forget, right?</strong> <br /><strong style=\"color: #E46F21;\">We have a meeting in 15 mins!</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" valign=\"middle\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; line-height:20px; font-size: 15px;\">\n\t\t\t\t\t\t<strong>Hi $cust_name$,</strong><br /><br />\n                        We are waiting to see you for our scheduled meeting for upgrading your AU Abhi A/c through Video KYC.<br /><br />\n\nPlease use this $vtlink$<br /><br />\n\nKeep your original PAN card, blank paper and a pen ready with you.<br />\nThe call will begin in the next 15 minutes. <br /><br />\n\nCan't wait to e-meet you!\n<br /><br />\n<strong>Your AU Bank team</strong>\n                        \n                      \n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\t   \n            \n      \n           \n\t\t  <tr>\n\t\t\t\t<td align=\"center\" style=\"border-bottom: 5px solid #000000;\" bgcolor=\"#E4E4E4\">\n\t\t\t\t\n\t\t\t\t\t<table width=\"660\" cellspacing=\"20\" cellpadding=\"0\">\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"center\">\n\t\t\t\t\t\t\t\t\t<table align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n\t\t\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 14px;\" width=\"95\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tFollow us on:\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://twitter.com/aubankindia/\" target=\"_blank\"><img alt=\"twitter\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/tw-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/aubank/\" target=\"_blank\"><img alt=\"linkedin\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/in-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.facebook.com/aubankindia\" target=\"_blank\"><img alt=\"facebook\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/fb-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.youtube.com/user/aufin1996\" target=\"_blank\"><img alt=\"youtube\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/yt-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"padding-left: 5px; padding-right: 5px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/aubankindia/\" target=\"_blank\"><img alt=\"Instagram\" src=\"https://objectstorage.ap-mumbai-1.oraclecloud.com/n/aubank2/b/Marketing/o/ig-3-in-1-acc-non-roy-mr-15-06-2021.png\" style=\"display: block !important;\" border=\"0\"></a>\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td align=\"left\" style=\"font-family: Arial, Helvetica, sans-serif; color: #404040; line-height:14px; font-size: 12px; \">\n\t\t\t\t\t\t\t\t\t<strong><em>Disclaimer:</em></strong><br />\n\t\t\t\t\t\t\t\t\t<em>Terms and conditions of AU Small Finance Bank and third parties apply. AU Small Finance Bank is not responsible for third-party goods, services or offers. All pictures shown are for illustration purpose only.</em>\n\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</body>\n</html>",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "AU Video Banking link! Join our scheduled meeting via $vtlink$ to upgrade your $au_abhi$ A/c via Video Banking in the next 15 mins. Keep your original PAN card, blank paper and a pen ready.\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      },
+      {
+        "VAR_NAME": "$cust_email$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_EMAIL",
+        "IS_NULLABLE": "Y"
+      },
+      {
+        "VAR_NAME": "$au_abhi$",
+        "DATA_SOURCE": "CONSTANT",
+        "VALUE": "AU ABHI"
+      },
+      {
+        "VAR_NAME": "$cust_name$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.CUSTOMER_NAME",
+        "IS_NULLABLE": "Y"
+      }
+    ]
+  },
+
+  "VKYC_REJECTED_MIN_TO_FKYC": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "Just a hiccup! VKYC application was not processed due to certain regulatory guidelines. Our representative will get in touch with you for opening an account through the nearest branch.\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      }
+    ]
+  },
+  "AGENT_UNABLE_MIN_TO_FKYC": {
+    "SMS_REQUIRED": "Y",
+    "EMAIL_REQUIRED": "N",
+    "WHATSAPP_REQUIRED": "N",
+    "EMAIL_TO": "",
+    "EMAIL_CC_TO": "",
+    "EMAIL_BCC_TO": "",
+    "EMAIL_SUBJECT": "",
+    "EMAIL_BODY": "",
+    "SMS_TO": "$mobile$",
+    "SMS_BODY": "We can't wait for you to join us!\nTo continue upgrading your $au_abhi$ A/c through VKYC, visit: $vtlink$ .*T&amp;C Apply\n- AU Bank",
+    "WHATSAPP_TO": "",
+    "WHATSAPP_BODY": "",
+    "VARIABLES": [
+      {
+        "VAR_NAME": "$mobile$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.MOBILE_NO"
+      },
+      {
+        "VAR_NAME": "$vtlink$",
+        "DATA_SOURCE": "INPUT",
+        "VALUE": "$.VT_LINK"
+      },
+      {
+        "VAR_NAME": "$au_abhi$",
+        "DATA_SOURCE": "CONSTANT",
+        "VALUE": "AU ABHI"
+      }
+    ]
+  }
+}
